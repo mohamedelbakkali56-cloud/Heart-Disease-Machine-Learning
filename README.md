@@ -1,8 +1,25 @@
-# Heart Disease Machine Learning
+# ❤️ Heart Disease Machine Learning
 
-This project is a Machine Learning application developed in Python for predicting heart disease using supervised and unsupervised learning techniques. It includes data preprocessing, visualization, classification using Random Forest, clustering using K-Means, and dimensionality reduction with PCA.
+A Machine Learning project developed in Python for predicting heart disease using supervised and unsupervised learning techniques. This project demonstrates the complete machine learning workflow, including data preprocessing, visualization, classification, clustering, dimensionality reduction, and model evaluation.
 
-## Features
+---
+
+## 📌 Project Overview
+
+This project analyzes a Heart Disease dataset and applies different Machine Learning algorithms to classify patients and identify hidden patterns within the data.
+
+The project includes:
+
+- Data preprocessing
+- Data visualization
+- Random Forest Classification
+- K-Means Clustering
+- Principal Component Analysis (PCA)
+- Model Evaluation
+
+---
+
+## 🚀 Features
 
 - Data preprocessing and cleaning
 - Handling missing values and duplicate records
@@ -15,44 +32,68 @@ This project is a Machine Learning application developed in Python for predictin
 - Feature Importance Analysis
 - Performance Evaluation (Accuracy, Precision, Recall, F1-Score)
 
-## How to Use
+---
 
-### 1. Clone or download the project
+## 🛠 Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 📂 Project Structure
+
+```
+Heart-Disease-Machine-Learning/
+│
+├── heart_disease.py
+├── README.md
+└── images/
+```
+
+---
+
+## ▶️ How to Run
+
+Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/Heart-Disease-Machine-Learning.git
 ```
 
-### 2. Navigate to the project folder
+Install the required libraries
 
 ```bash
-cd Heart-Disease-Machine-Learning
+pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 
-### 3. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the project
+Run the project
 
 ```bash
 python heart_disease.py
 ```
 
-## Project Workflow
+---
 
-1. Load and prepare the Heart Disease dataset.
-2. Clean the data by removing duplicates and filling missing values.
-3. Encode categorical features and normalize numerical features.
-4. Train a Random Forest classifier.
-5. Evaluate the model using several performance metrics.
-6. Apply K-Means clustering.
-7. Visualize clusters using PCA.
-8. Generate charts and evaluation plots.
+## 📊 Project Workflow
 
-## Machine Learning Algorithms
+1. Load the Heart Disease dataset.
+2. Clean and preprocess the data.
+3. Encode categorical variables.
+4. Scale numerical features.
+5. Train a Random Forest classifier.
+6. Evaluate the model using several performance metrics.
+7. Apply K-Means clustering.
+8. Visualize clusters using PCA.
+9. Generate charts and evaluation plots.
+
+---
+
+## 🤖 Machine Learning Algorithms
 
 ### Supervised Learning
 
@@ -63,36 +104,34 @@ python heart_disease.py
 - K-Means Clustering
 - Principal Component Analysis (PCA)
 
-## Technologies Used
+---
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
+## 📈 Results
 
-## Project Structure
+The project generates several visualizations, including:
 
-```
-Heart-Disease-Machine-Learning/
-│
-├── heart_disease.py
-├── requirements.txt
-├── README.md
-└── images/
-    ├── figure1.png
-    ├── figure2.png
-    ├── figure3.png
-    ├── figure4.png
-    └── figure5.png
-```
+- Dataset Distribution
+- Correlation Heatmap
+- Confusion Matrix
+- Feature Importance
+- Elbow Method
+- PCA Cluster Visualization
+- Performance Metrics
 
-## Future Enhancements
+---
+
+## 🔮 Future Improvements
 
 - Use the original UCI Heart Disease dataset.
 - Compare multiple Machine Learning algorithms.
-- Optimize hyperparameters using GridSearchCV.
-- Build a web interface with Flask or Streamlit.
-- Deploy the model online.
+- Perform hyperparameter tuning.
+- Build an interactive web application using Streamlit or Flask.
+- Deploy the trained model online.
 
+---
+
+## 👨‍💻 Author
+
+**Mohamed El Bakkali**
+
+Computer Science Student | Python | Machine Learning | Data Science
