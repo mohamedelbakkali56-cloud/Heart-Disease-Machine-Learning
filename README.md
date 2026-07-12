@@ -1,10 +1,10 @@
-# ❤️ Heart Disease Machine Learning
+#  Heart Disease Machine Learning
 
 A Machine Learning project developed in Python for predicting heart disease using supervised and unsupervised learning techniques. This project demonstrates the complete machine learning workflow, including data preprocessing, visualization, classification, clustering, dimensionality reduction, and model evaluation.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes a Heart Disease dataset and applies different Machine Learning algorithms to classify patients and identify hidden patterns within the data.
 
@@ -19,7 +19,7 @@ The project includes:
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Data preprocessing and cleaning
 - Handling missing values and duplicate records
@@ -45,7 +45,7 @@ The project includes:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Heart-Disease-Machine-Learning/
@@ -57,7 +57,7 @@ Heart-Disease-Machine-Learning/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 Clone the repository
 
@@ -79,7 +79,7 @@ python heart_disease.py
 
 ---
 
-## 📊 Project Workflow
+##  Project Workflow
 
 1. Load the Heart Disease dataset.
 2. Clean and preprocess the data.
@@ -93,7 +93,7 @@ python heart_disease.py
 
 ---
 
-## 🤖 Machine Learning Algorithms
+##  Machine Learning Algorithms
 
 ### Supervised Learning
 
@@ -106,7 +106,7 @@ python heart_disease.py
 
 ---
 
-## 📈 Results
+##  Results
 
 The project generates several visualizations, including:
 
@@ -120,7 +120,7 @@ The project generates several visualizations, including:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Use the original UCI Heart Disease dataset.
 - Compare multiple Machine Learning algorithms.
@@ -130,8 +130,4 @@ The project generates several visualizations, including:
 
 ---
 
-## 👨‍💻 Author
 
-**Mohamed El Bakkali**
-
-Computer Science Student | Python | Machine Learning | Data Science
